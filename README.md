@@ -18,3 +18,5 @@ Development will progress with a focus on learning and applying Roblox Creator S
 
 Functionalities:
 A fully functional VR dungeon-exploration game featuring combat mechanics, puzzles, and interactive elements designed to immerse the player in a richly detailed world.
+
+Planning Document: https://docs.google.com/document/d/1LqkEOb5JbafPxMEBeonPbCNRnoFX96NN3Usl3Z5It-U/edit?usp=sharing
