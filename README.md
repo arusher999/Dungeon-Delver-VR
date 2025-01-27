@@ -21,12 +21,13 @@ A fully functional VR dungeon-exploration game featuring combat mechanics, puzzl
 
 Planning Document: https://docs.google.com/document/d/1LqkEOb5JbafPxMEBeonPbCNRnoFX96NN3Usl3Z5It-U/edit?usp=sharing
 
+## Week 3 Submission
 
-Problem Statement
+# Problem Statement
 
 The goal of this project is to develop an immersive VR dungeon-exploration game in Roblox Creator Studio. The game should offer an engaging experience by incorporating dynamic combat mechanics, puzzle-solving elements, and an interactive environment. The primary objective is to leverage VR functionalities in Roblox to create an innovative and interactive dungeon crawler that enhances user engagement and immersion.
 
-Research & Background
+#Research & Background
 
 To understand the feasibility and best practices for developing VR experiences in Roblox, initial research focused on:
 
@@ -36,7 +37,7 @@ Existing VR Dungeon Games: Exploring game mechanics, player engagement strategie
 
 User Experience in VR: Investigating best practices for motion control, immersive feedback, and reducing motion sickness in VR environments.
 
-Key Findings:
+# Key Findings:
 
 VR support in Roblox is still evolving, requiring custom scripts for interaction and locomotion.
 
@@ -44,13 +45,13 @@ Haptic feedback and spatial sound significantly enhance immersion.
 
 Procedural dungeon generation can improve replayability and engagement.
 
-End-of-Day 1 Checkpoint:
+# End-of-Day 1 Checkpoint:
 
 Finalized problem statement.
 
 Documented key research insights.
 
-Week 3 – Day 2: AI Integration & Preliminary Task Listing
+# Week 3 – Day 2: AI Integration & Preliminary Task Listing
 
 AI Integration Plan
 
@@ -74,67 +75,28 @@ UI & Player Experience: Create HUD elements, tutorial sections, and in-game prom
 
 Testing & Iteration: Playtest and refine movement, interactions, and performance.
 
-End-of-Day 2 Checkpoint:
+# End-of-Day 2 Checkpoint:
 
 Defined AI integration plan.
 
 Drafted a preliminary task list.
 
-Week 3 – Day 3: Refine Task List, Timeline, & GitHub Setup
+# Week 3 – Day 3: Refine Task List, Timeline, & GitHub Setup
 
 Refined Task List & Timeline
 
-Task
+Environment Design - 1-2 weeks
+VR Mechanics Implementation - 2 weeks
 
-Estimated Time
+Environment Design/ AI Integration - 1.5 weeks
 
-Dependencies
+Basic gameplay setup/UI & Player Experience - 1 week
 
-Environment Design
+Core mechanics done/Testing & Iteration - Ongoing
 
-1 week
+All features implemented and GitHub Repository Setup - 1-2 remaining weeks
 
-None
-
-VR Mechanics Implementation
-
-2 weeks
-
-Environment Design
-
-AI Integration
-
-1.5 weeks
-
-Basic gameplay setup
-
-UI & Player Experience
-
-1 week
-
-Core mechanics done
-
-Testing & Iteration
-
-Ongoing
-
-All features implemented
-
-GitHub Repository Setup
-
-Repo Name: DungeonDelverVR
-
-Folder Structure:
-
-docs/ – Research and planning documents
-
-src/ – Game scripts and assets
-
-data/ – AI models (if applicable)
-
-logs/ – Development progress logs
-
-End-of-Day 3 Checkpoint:
+# End-of-Day 3 Checkpoint:
 
 Task list and timeline finalized.
 
@@ -150,24 +112,24 @@ Reflection & Next Steps
 
 What do you still need to accomplish or clarify?
 
-Refine AI behaviors and procedural generation models.
+- Refine AI behaviors and procedural generation models.
 
-Optimize VR controls and locomotion for smooth gameplay.
+- Optimize VR controls and locomotion for smooth gameplay.
 
 What resources do you need?
 
-Advanced Roblox VR scripting tutorials.
+- Advanced Roblox VR scripting tutorials.
 
-AI implementation resources (pathfinding, procedural generation).
+- AI implementation resources (pathfinding, procedural generation).
 
 What challenges or uncertainties are you facing?
 
-Potential performance issues with real-time dungeon generation.
+- Potential performance issues with real-time dungeon generation.
 
-Maintaining player comfort in VR (motion sickness mitigation).
+- Maintaining player comfort in VR (motion sickness mitigation).
 
 How do you plan to address these challenges?
 
-Conduct iterative testing with small-scale environments before expanding.
+- Conduct iterative testing with small-scale environments before expanding.
 
-Implement comfort options (e.g., teleportation movement, vignette effects).
+- Implement comfort options (e.g., teleportation movement, vignette effects).
