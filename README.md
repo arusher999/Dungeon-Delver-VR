@@ -27,6 +27,8 @@ Planning Document: https://docs.google.com/document/d/1LqkEOb5JbafPxMEBeonPbCNRn
 
 The goal of this project is to develop an immersive VR dungeon-exploration game in Roblox Creator Studio. The game should offer an engaging experience by incorporating dynamic combat mechanics, puzzle-solving elements, and an interactive environment. The primary objective is to leverage VR functionalities in Roblox to create an innovative and interactive dungeon crawler that enhances user engagement and immersion.
 
+A Dungeon Delver video game in Roblox VR has not been created yet. Popular dungeon video games like Diablo and The Binding of Isaac have been made but never in a virtual reality format.
+
 #Research & Background
 
 To understand the feasibility and best practices for developing VR experiences in Roblox, initial research focused on:
