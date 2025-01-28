@@ -24,6 +24,17 @@ Planning Document: https://docs.google.com/document/d/1LqkEOb5JbafPxMEBeonPbCNRn
 ## Week 4 Submission
 
 ### Task 1: Mentor Fit & Guidance
+The ideal mentor for this project would have experience in game development, especially in Roblox Creator Studio, and knowledge of AI for enemy behavior and dungeon generation. Project management skills would help with planning, and expertise in VR mechanics would be useful for optimizing gameplay. A mentor who can review code and provide technical guidance would be a great fit.
+
+Key questions for a mentor would focus on their experience with VR and AI in gaming, their approach to balancing gameplay and technical challenges, and best practices for organizing a development pipeline. It would also be helpful to ask about common pitfalls, performance optimization, and recommended resources for learning and staying updated on VR technology.
+
+### Task 2: Resource Gathering & Organization
+
+Resources are currently stored on our Resources Document which can be accessed here: https://docs.google.com/document/d/1LqkEOb5JbafPxMEBeonPbCNRnoFX96NN3Usl3Z5It-U/edit?usp=sharing
+
+Hamiz is currently working to integrate the roblox coding environment to Github.
+
+### Task 4: Portfolio Update & Timeline Creation
 
 
 ## Week 3 Submission
