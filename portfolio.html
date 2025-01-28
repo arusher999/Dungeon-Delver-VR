@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dungeon Delver VR Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Dungeon Delver VR</h1>
+        <p>By Hamiz Iqbal and Aarush Vora</p>
+        <p>An immersive VR dungeon-exploration adventure in Roblox Creator Studio.</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#timeline">Timeline</a></li>
+            <li><a href="#research">Research & Features</a></li>
+            <li><a href="#github">GitHub Repository</a></li>
+        </ul>
+    </nav>
+    
+    <section id="timeline">
+        <h2>Development Timeline</h2>
+        <ul>
+            <li><a href="timeline.html#week1">Week 1: Research & Planning</a></li>
+            <li><a href="timeline.html#week2">Week 2: Initial Prototyping</a></li>
+            <li><a href="timeline.html#week3">Week 3: AI & Gameplay Implementation</a></li>
+            <li><a href="timeline.html#week4">Week 4: Testing & Optimization</a></li>
+        </ul>
+    </section>
+    
+    <section id="research">
+        <h2>Research & Features</h2>
+        <p>Dungeon Delver VR aims to revolutionize dungeon exploration in virtual reality. Key research areas include:</p>
+        <ul>
+            <li>Roblox Creator Studio’s VR Capabilities</li>
+            <li>Existing VR Dungeon Games & Mechanics</li>
+            <li>AI-driven NPC Behavior & Procedural Dungeon Generation</li>
+        </ul>
+        <a href="research.html">Learn More</a>
+    </section>
+    
+    <section id="github">
+        <h2>Project Repository</h2>
+        <p>Access the latest development progress, code, and resources on GitHub.</p>
+        <a href="https://github.com/yourrepo/dungeon-delver-vr" target="_blank">Visit GitHub</a>
+    </section>
+    
+    <footer>
+        <p>© 2025 Dungeon Delver VR Project</p>
+    </footer>
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            document.querySelectorAll("a").forEach(link => {
+                link.addEventListener("mouseover", function() {
+                    this.style.color = "#ff4757";
+                });
+                link.addEventListener("mouseout", function() {
+                    this.style.color = "#000";
+                });
+            });
+        });
+    </script>
+    
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #000;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #ffcc00;
+            padding: 20px;
+            border-bottom: 5px solid #000;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #000;
+            font-weight: bold;
+        }
+        section {
+            margin: 50px 20px;
+            padding: 20px;
+            border: 3px solid #000;
+            background-color: #fff;
+            box-shadow: 5px 5px 0px #000;
+        }
+        footer {
+            background-color: #ffcc00;
+            padding: 10px;
+            margin-top: 20px;
+            border-top: 5px solid #000;
+        }
+        a:hover {
+            color: #ff4757;
+        }
+    </style>
+</body>
+</html>
