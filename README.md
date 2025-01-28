@@ -21,9 +21,14 @@ A fully functional VR dungeon-exploration game featuring combat mechanics, puzzl
 
 Planning Document: https://docs.google.com/document/d/1LqkEOb5JbafPxMEBeonPbCNRnoFX96NN3Usl3Z5It-U/edit?usp=sharing
 
+## Week 4 Submission
+
+### Task 1: Mentor Fit & Guidance
+
+
 ## Week 3 Submission
 
-# Problem Statement
+### Problem Statement
 
 The goal of this project is to develop an immersive VR dungeon-exploration game in Roblox Creator Studio. The game should offer an engaging experience by incorporating dynamic combat mechanics, puzzle-solving elements, and an interactive environment. The primary objective is to leverage VR functionalities in Roblox to create an innovative and interactive dungeon crawler that enhances user engagement and immersion.
 
