@@ -1,4 +1,4 @@
-# [Dungeon Delver VR](https://arusher999.github.io/Roblox-VR/)
+# [Dungeon Delver VR](https://arusher999.github.io/Dungeon-Delver-VR/)
 Dungeon Delver VR: Embark on an immersive dungeon-exploration adventure developed in Roblox Creator Studio. This VR game challenges players to explore treacherous dungeons, solve puzzles, and battle enemies while uncovering hidden treasures.
 
 Objective:
