@@ -45,7 +45,7 @@ The goal of this project is to develop an immersive VR dungeon-exploration game 
 
 A Dungeon Delver video game in Roblox VR has not been created yet. Popular dungeon video games like Diablo and The Binding of Isaac have been made but never in a virtual reality format.
 
-#Research & Background
+# Research & Background
 
 To understand the feasibility and best practices for developing VR experiences in Roblox, initial research focused on:
 
