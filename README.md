@@ -37,7 +37,7 @@ Hamiz is currently working to integrate the roblox coding environment to Github.
 ### Task 4: Portfolio Update & Timeline Creation
 
 All information regarding the project portfolio and timeline can be found on the portfolio website. The timeline is hosted on Notion and can be accessed through the website or this link:
-https://harmless-plow-db2.notion.site/Roblox-VR-Project-Timeline-18a3485dd48680e08a51c9e5d85c5a57
+https://www.notion.so/Roblox-VR-Project-Timeline-18a3485dd48680e08a51c9e5d85c5a57?pvs=4
 
 This portfolio will be updated as we continnue to work on the project, and the timeline will be updated more often with breakthroughs/halts in progress.
 
