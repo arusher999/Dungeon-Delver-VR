@@ -4,17 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dungeon Delver VR – Features</title>
-    <!-- Same font and stylesheet links as index.html -->
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Lexend+Mega:wght@400;700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="neobrutalist">
     <header>
         <h1>Dungeon Delver VR</h1>
         <p class="author">By Hamiz Iqbal and Aarush Vora</p>
         <p>Core Features & Game Mechanics</p>
     </header>
-    
+
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
@@ -24,7 +23,7 @@
             <li><a href="https://github.com/arusher999/Roblox-VR" target="_blank">GitHub Repository</a></li>
         </ul>
     </nav>
-    
+
     <section>
         <h2>Key Game Features</h2>
         <ul>
@@ -48,80 +47,28 @@
             <li><strong>Testing & Iteration (Ongoing):</strong> Continuously refine and optimize performance, comfort, and gameplay flow.</li>
         </ul>
     </section>
-    
+
     <footer>
         <p>© 2025 Dungeon Delver VR Project</p>
     </footer>
-    
-    <!-- Same hover and styling script -->
+
     <script>
         document.addEventListener("DOMContentLoaded", function() {
-            document.querySelectorAll("a").forEach(link => {
+            document.querySelectorAll("nav a, section a").forEach(link => {
                 link.addEventListener("mouseover", function() {
-                    this.style.color = "#ff4757";
+                    this.style.backgroundColor = "#ff4757";
+                    this.style.color = "#fff";
+                    this.style.boxShadow = "3px 3px 0px black";
+                    this.style.transform = "translate(-2px, -2px)";
                 });
                 link.addEventListener("mouseout", function() {
+                    this.style.backgroundColor = "white";
                     this.style.color = "#000";
+                    this.style.boxShadow = "5px 5px 0px black";
+                    this.style.transform = "translate(0, 0)";
                 });
             });
         });
     </script>
-    
-    <!-- Inline style or link to your styles.css (if you use a separate file) -->
-    <style>
-        body {
-            font-family: 'Lexend Mega', sans-serif;
-            background-color: #e8f1ff;
-            color: #000;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-        }
-        header {
-            background-color: #ffcc00;
-            padding: 20px;
-            border-bottom: 5px solid #000;
-            box-shadow: 10px 10px 0px black;
-        }
-        .author {
-            font-size: 14px;
-            font-weight: bold;
-        }
-        nav ul {
-            list-style: none;
-            padding: 0;
-        }
-        nav ul li {
-            display: inline-block;
-            margin: 0 15px;
-            font-size: 18px;
-        }
-        nav ul li a {
-            text-decoration: none;
-            color: #000;
-            font-weight: bold;
-            border: 3px solid black;
-            padding: 10px;
-            background-color: white;
-            box-shadow: 5px 5px 0px black;
-        }
-        section {
-            margin: 50px 20px;
-            padding: 20px;
-            border: 3px solid #000;
-            background-color: #ffefd5;
-            box-shadow: 10px 10px 0px black;
-        }
-        footer {
-            background-color: #ffcc00;
-            padding: 10px;
-            margin-top: 20px;
-            border-top: 5px solid #000;
-            box-shadow: 10px 10px 0px black;
-        }
-        a:hover {
-            color: #ff4757;
-        }
-    </style>
 </body>
 </html>
