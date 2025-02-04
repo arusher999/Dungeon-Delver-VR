@@ -4,29 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dungeon Delver VR Portfolio</title>
-    
-    <!-- Favicon link: uses roblox.webp in the root folder -->
     <link rel="icon" href="roblox.webp" type="image/webp">
-    
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Lexend+Mega:wght@400;700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="neobrutalist">
     <header>
         <h1>Dungeon Delver VR</h1>
         <p class="author">By Hamiz Iqbal and Aarush Vora</p>
         <p>An immersive VR dungeon-exploration adventure in Roblox Creator Studio.</p>
     </header>
-    
+
     <nav>
         <ul>
-            <li><a href="https://www.notion.so/Roblox-VR-Project-Timeline-18a3485dd48680e08a51c9e5d85c5a57?pvs=4">Timeline</a></li>
+            <li><a href="https://www.notion.so/Roblox-VR-Project-Timeline-18a3485dd48680e08a51c9e5d85c5a57?pvs=4" target="_blank">Timeline</a></li>
             <li><a href="research.html">Research</a></li>
             <li><a href="features.html">Features</a></li>
             <li><a href="#github">GitHub Repository</a></li>
         </ul>
     </nav>
-    
+
     <section id="research">
         <h2>Research & Features</h2>
         <p>Dungeon Delver VR aims to revolutionize dungeon exploration in virtual reality. Key research areas include:</p>
@@ -35,90 +32,36 @@
             <li>Existing VR Dungeon Games & Mechanics</li>
             <li>AI-driven NPC Behavior & Procedural Dungeon Generation</li>
         </ul>
-        <a href="research.html">Learn More</a>
+        <a href="research.html" class="button-link">Learn More</a>
     </section>
-    
+
     <section id="github">
         <h2>Project Repository</h2>
         <p>Access the latest development progress, code, and resources on GitHub.</p>
-        <a href="https://github.com/arusher999/Dungeon-Delver-VR" target="_blank">Visit GitHub</a>
+        <a href="https://github.com/arusher999/Dungeon-Delver-VR" target="_blank" class="button-link">Visit GitHub</a>
     </section>
-    
+
     <footer>
         <p>© 2025 Dungeon Delver VR Project</p>
     </footer>
-    
+
     <script>
         document.addEventListener("DOMContentLoaded", function() {
-            document.querySelectorAll("a").forEach(link => {
+            document.querySelectorAll("nav a, section a").forEach(link => {
                 link.addEventListener("mouseover", function() {
-                    this.style.color = "#ff4757";
+                    this.style.backgroundColor = "#ff4757";
+                    this.style.color = "#fff";
+                    this.style.boxShadow = "3px 3px 0px black";
+                    this.style.transform = "translate(-2px, -2px)";
                 });
                 link.addEventListener("mouseout", function() {
+                    this.style.backgroundColor = "white";
                     this.style.color = "#000";
+                    this.style.boxShadow = "5px 5px 0px black";
+                    this.style.transform = "translate(0, 0)";
                 });
             });
         });
     </script>
-    
-    <style>
-        body {
-            font-family: 'Lexend Mega', sans-serif;
-            background-color: #e8f1ff;
-            color: #000;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-        }
-        header {
-            background-color: #ffcc00;
-            padding: 20px;
-            border-bottom: 5px solid #000;
-            box-shadow: 10px 10px 0px black;
-        }
-        .author {
-            font-size: 14px;
-            font-weight: bold;
-        }
-        nav ul {
-            list-style: none;
-            padding: 0;
-        }
-        nav ul li {
-            display: inline;
-            margin: 0 15px;
-            font-size: 18px;
-        }
-        nav ul li a {
-            text-decoration: none;
-            color: #000;
-            font-weight: bold;
-            border: 3px solid black;
-            padding: 10px;
-            background-color: white;
-            box-shadow: 5px 5px 0px black;
-        }
-        section {
-            margin: 50px 20px;
-            padding: 20px;
-            border: 3px solid #000;
-            background-color: #ffefd5;
-            box-shadow: 10px 10px 0px black;
-        }
-        footer {
-            background-color: #ffcc00;
-            padding: 10px;
-            margin-top: 20px;
-            border-top: 5px solid #000;
-            box-shadow: 10px 10px 0px black;
-        }
-        a:hover {
-            color: #ff4757;
-        }
-    </style>
-</body>
-</html>
-
-    </style>
 </body>
 </html>
