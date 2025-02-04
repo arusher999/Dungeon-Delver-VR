@@ -1,0 +1,127 @@
+/* styles.css */
+body.neobrutalist {
+    font-family: 'Lexend Mega', sans-serif;
+    background-color: #e8f1ff;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    line-height: 1.6;
+    overflow-x: hidden; /* Prevent horizontal scrollbar */
+}
+
+header {
+    background-color: #ffcc00;
+    padding: 40px 20px; /* Increased padding */
+    border-bottom: 7px solid #000; /* Thicker border */
+    box-shadow: 12px 12px 0px black; /* Stronger shadow */
+    margin-bottom: 30px; /* Spacing below header */
+}
+
+header h1 {
+    font-size: 2.5em; /* Larger title */
+    margin-bottom: 10px;
+    letter-spacing: -2px; /* Tighten letter spacing for bold effect */
+}
+
+header p {
+    font-size: 1.1em;
+    color: #333; /* Slightly softer text color for description */
+}
+
+.author {
+    font-size: 16px; /* Slightly larger author text */
+    font-weight: 700; /* Bolder author text */
+    margin-bottom: 5px;
+}
+
+nav {
+    background-color: #f0f0f0; /* Light grey background for nav */
+    padding: 15px 20px;
+    border-bottom: 5px solid #000;
+    box-shadow: 8px 8px 0px black;
+    margin-bottom: 40px; /* Increased margin below nav */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Use flexbox for navigation */
+    justify-content: center; /* Center navigation links */
+    gap: 20px; /* Spacing between nav items */
+}
+
+nav ul li {
+    margin: 0; /* Remove default list item margins */
+}
+
+nav ul li a {
+    display: block; /* Make links block level for padding to work */
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    border: 4px solid black; /* Thicker border for nav links */
+    padding: 12px 20px; /* Increased padding for nav links */
+    background-color: white;
+    box-shadow: 5px 5px 0px black;
+    transition: background-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease; /* Smooth transitions */
+}
+
+
+section {
+    margin: 60px auto; /* Increased top/bottom margin, auto for horizontal centering */
+    padding: 30px; /* Increased padding for sections */
+    border: 5px solid #000; /* Thicker border for sections */
+    background-color: #ffefd5;
+    box-shadow: 12px 12px 0px black; /* Stronger shadow for sections */
+    max-width: 850px; /* Slightly wider sections */
+    text-align: left; /* Left align text in sections */
+}
+
+section h2 {
+    font-size: 2em; /* Larger section titles */
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center; /* Center section titles */
+    letter-spacing: -1px;
+}
+
+section p, section ul {
+    font-size: 1.1em;
+    color: #222; /* Slightly softer text color in sections */
+}
+
+section ul {
+    padding-left: 30px;
+}
+
+section ul li {
+    margin-bottom: 8px;
+}
+
+section a.button-link {
+    display: inline-block; /* Make button links inline-block */
+    margin-top: 20px;
+    padding: 12px 25px;
+    text-decoration: none;
+    color: #000;
+    background-color: white;
+    border: 3px solid black;
+    box-shadow: 5px 5px 0px black;
+    font-weight: 700;
+    transition: background-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+
+footer {
+    background-color: #ffcc00;
+    padding: 25px; /* Increased footer padding */
+    margin-top: 50px; /* Increased margin above footer */
+    border-top: 7px solid #000; /* Thicker border for footer */
+    box-shadow: 12px 12px 0px black; /* Stronger shadow for footer */
+    font-size: 0.9em;
+    color: #333;
+}
+
+/* Hover effects for nav links and button links are handled by JavaScript for more dynamic effect */
