@@ -4,31 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dungeon Delver VR – Research</title>
-    
-    <!-- Favicon link (assuming roblox.webp is in the same folder) -->
     <link rel="icon" href="roblox.webp" type="image/webp">
-    
-    <!-- Same font and stylesheet links as index.html -->
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Lexend+Mega:wght@400;700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="neobrutalist">
     <header>
         <h1>Dungeon Delver VR</h1>
         <p class="author">By Hamiz Iqbal and Aarush Vora</p>
         <p>Deep Dive into Research & Background</p>
     </header>
-    
+
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="https://notion.so/timeline" target="_blank">Timeline</a></li>
+            <li><a href="https://www.notion.so/Roblox-VR-Project-Timeline-18a3485dd48680e08a51c9e5d85c5a57?pvs=4" target="_blank">Timeline</a></li>
             <li><a href="research.html">Research</a></li>
             <li><a href="features.html">Features</a></li>
             <li><a href="https://github.com/arusher999/Roblox-VR" target="_blank">GitHub Repository</a></li>
         </ul>
     </nav>
-    
+
     <section>
         <h2>Problem Statement</h2>
         <p>
@@ -47,16 +43,16 @@
             official documentation, and examples of VR integration in other games. This approach helped us identify best practices
             and potential pitfalls when designing an immersive environment.
         </p>
-        
+
         <h3>Roblox VR Capabilities</h3>
         <ul>
             <li>
                 <strong>VR Support Overview:</strong>
                 <br>
-                Roblox has ongoing support for VR devices, including the Oculus Rift and HTC Vive, but many advanced interactions 
+                Roblox has ongoing support for VR devices, including the Oculus Rift and HTC Vive, but many advanced interactions
                 (e.g., hand tracking, custom VR controls) require custom scripting.
                 <br>
-                <a href="https://developer.roblox.com/en-us/articles/VR-Support" target="_blank">
+                <a href="https://developer.roblox.com/en-us/articles/VR-Support" target="_blank" class="button-link small">
                     Official Roblox VR Support Documentation
                 </a>
             </li>
@@ -67,7 +63,7 @@
                 scripted for a deeper sense of immersion (teleportation, climbing, grabbing objects, etc.).
             </li>
         </ul>
-        
+
         <h3>Roblox Studio Resources</h3>
         <ul>
             <li>
@@ -75,7 +71,7 @@
                 <br>
                 To leverage VR in Roblox, developers need a strong understanding of Lua scripting within the Roblox Studio environment.
                 <br>
-                <a href="https://create.roblox.com/docs/scripting" target="_blank">
+                <a href="https://create.roblox.com/docs/scripting" target="_blank" class="button-link small">
                     Roblox Studio Scripting Documentation
                 </a>
             </li>
@@ -85,7 +81,7 @@
                 Dungeon Delver VR relies on custom-built assets, lighting, and environment design. Efficient use of Roblox Studio’s
                 terrain tools and object management is essential for performance, especially in VR.
                 <br>
-                <a href="https://create.roblox.com/docs/building" target="_blank">
+                <a href="https://create.roblox.com/docs/building" target="_blank" class="button-link small">
                     Roblox Studio Building Guides
                 </a>
             </li>
@@ -105,11 +101,11 @@
             <li><strong>Immersive Feedback:</strong> Using haptic feedback and spatial audio for enhanced realism.</li>
             <li><strong>Performance Optimization:</strong> Ensuring stable frame rates to minimize VR discomfort.</li>
         </ul>
-        
+
         <h3>Key Takeaways</h3>
         <ul>
             <li>
-                <strong>Custom Scripting:</strong> 
+                <strong>Custom Scripting:</strong>
                 Roblox VR integration often requires bespoke scripts for advanced interactions.
             </li>
             <li>
@@ -134,88 +130,28 @@
             <li><strong>Adaptive Difficulty:</strong> Dynamically adjusting enemy strength and puzzle complexity to match player performance.</li>
         </ul>
     </section>
-    
+
     <footer>
         <p>© 2025 Dungeon Delver VR Project</p>
     </footer>
 
-    <!-- Same hover and styling script as other pages -->
     <script>
         document.addEventListener("DOMContentLoaded", function() {
-            document.querySelectorAll("a").forEach(link => {
+            document.querySelectorAll("nav a, section a").forEach(link => {
                 link.addEventListener("mouseover", function() {
-                    this.style.color = "#ff4757";
+                    this.style.backgroundColor = "#ff4757";
+                    this.style.color = "#fff";
+                    this.style.boxShadow = "3px 3px 0px black";
+                    this.style.transform = "translate(-2px, -2px)";
                 });
                 link.addEventListener("mouseout", function() {
+                    this.style.backgroundColor = "white";
                     this.style.color = "#000";
+                    this.style.boxShadow = "5px 5px 0px black";
+                    this.style.transform = "translate(0, 0)";
                 });
             });
         });
     </script>
-    
-    <!-- Inline style or link to your styles.css (if you’re using a separate file) -->
-    <style>
-        body {
-            font-family: 'Lexend Mega', sans-serif;
-            background-color: #e8f1ff;
-            color: #000;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-        }
-        header {
-            background-color: #ffcc00;
-            padding: 20px;
-            border-bottom: 5px solid #000;
-            box-shadow: 10px 10px 0px black;
-        }
-        .author {
-            font-size: 14px;
-            font-weight: bold;
-        }
-        nav ul {
-            list-style: none;
-            padding: 0;
-        }
-        nav ul li {
-            display: inline-block;
-            margin: 0 15px;
-            font-size: 18px;
-        }
-        nav ul li a {
-            text-decoration: none;
-            color: #000;
-            font-weight: bold;
-            border: 3px solid black;
-            padding: 10px;
-            background-color: white;
-            box-shadow: 5px 5px 0px black;
-        }
-        section {
-            margin: 50px 20px;
-            padding: 20px;
-            border: 3px solid #000;
-            background-color: #ffefd5;
-            box-shadow: 10px 10px 0px black;
-            text-align: left;
-            max-width: 800px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        section h2, section h3 {
-            text-align: center;
-        }
-        footer {
-            background-color: #ffcc00;
-            padding: 10px;
-            margin-top: 20px;
-            border-top: 5px solid #000;
-            box-shadow: 10px 10px 0px black;
-        }
-        a:hover {
-            color: #ff4757;
-        }
-    </style>
 </body>
 </html>
-
