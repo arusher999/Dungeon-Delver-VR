@@ -21,6 +21,9 @@ A fully functional VR dungeon-exploration game featuring combat mechanics, puzzl
 
 Planning Document: https://docs.google.com/document/d/1LqkEOb5JbafPxMEBeonPbCNRnoFX96NN3Usl3Z5It-U/edit?usp=sharing
 
+
+## Rest of submissions located on Timelne on website!!
+
 ## Week 4 Submission
 
 ### Task 1: Mentor Fit & Guidance
