@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dungeon Delver VR – MVP</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Mega:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body class="neobrutalist">
+  <header>
+    <h1>Dungeon Delver VR</h1>
+    <p class="author">By Hamiz Iqbal and Aarush Vora</p>
+    <p>Minimum Viable Product (MVP) Overview</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li>
+        <a href="https://www.notion.so/Roblox-VR-Project-Timeline-18a3485dd48680e08a51c9e5d85c5a57?pvs=4" target="_blank">Timeline</a>
+      </li>
+      <li><a href="research.html">Research</a></li>
+      <li><a href="features.html">Features</a></li>
+      <li><a href="mvp.html">MVP</a></li>
+      <li><a href="https://github.com/arusher999/Dungeon-Delver-VR" target="_blank">GitHub Repository</a></li>
+    </ul>
+  </nav>
+
+  <section>
+    <h2>Core Idea Demonstration</h2>
+    <p>
+      The MVP for Dungeon Delver VR focuses on delivering a testable, immersive VR experience accessible via the Quest Pro. Our core features include a working VR dungeon environment, basic player movement, interaction, combat system, and an inventory system.
+    </p>
+    <ul>
+      <li>Fully publish the game through Roblox Studio for public testing.</li>
+      <li>A working VR dungeon environment.</li>
+      <li>Basic player movement and interaction.</li>
+      <li>Combat system with enemies.</li>
+      <li>Inventory system (pickup/store/switch items).</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Must Be FULLY WORKING by Week 11</h2>
+    <ul>
+      <li>Stable movement &amp; interaction mechanics.</li>
+      <li>Combat mechanics (basic AI, attacking, player health system).</li>
+      <li>At least one functional puzzle or trap.</li>
+      <li>Basic UI elements for health, inventory, and player feedback.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Current Feature Priorities</h2>
+    <h3>Essential:</h3>
+    <ul>
+      <li>VR movement and interaction (teleportation/smooth locomotion).</li>
+      <li>Basic combat mechanics (melee/simplified ranged).</li>
+      <li>Enemy AI with pathfinding &amp; basic attacks.</li>
+      <li>Functional inventory system.</li>
+    </ul>
+    <h3>Nice-to-Have (Future Plans):</h3>
+    <ul>
+      <li>Puzzle mechanics (levers, pressure plates, etc.).</li>
+      <li>Haptic feedback for combat.</li>
+      <li>Spatial audio for immersion.</li>
+    </ul>
+    <h3>Extra:</h3>
+    <ul>
+      <li>Procedural dungeon generation – <strong>VERY DIFFICULT FOR ROBLOX PLATFORM</strong>.</li>
+      <li>Adaptive difficulty AI – challenging but possible.</li>
+      <li>Advanced enemy attack patterns.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Tech/Design Review</h2>
+    <ul>
+      <li><strong>Scripting:</strong> Ensure Lua scripts handling VR interactions are optimized.</li>
+      <li><strong>UI/UX:</strong> Prioritize intuitive controls, clear visual feedback, and smooth movement.</li>
+      <li><strong>Performance:</strong> Avoid rendering overload—optimize environment assets.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Initial Implementation Plan</h2>
+    <ul>
+      <li><strong>Hamiz:</strong> Finalizing environment &amp; integrating combat mechanics, and publishing the game to the Roblox Platform.</li>
+      <li><strong>Aarush:</strong> Focus on testing VR live and debugging platform.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Task 2: Development Roadmap</h2>
+    <ul>
+      <li>
+        <strong>Feature Development &amp; Implementation:</strong>
+        <ul>
+          <li>Wrap up inventory.</li>
+          <li>Implement combat mechanics &amp; finalize basic enemy AI.</li>
+          <li>Integrate inventory system smoothly into combat.</li>
+          <li>Test movement and interactions in VR.</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Basic UI/UX Polish:</strong>
+        <ul>
+          <li>Ensure clear visual cues for damage, inventory, and movement.</li>
+          <li>Adjust interaction mechanics for better usability.</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Bug Fixing &amp; Optimization:</strong>
+        <ul>
+          <li>Identify and fix major blockers in combat or movement.</li>
+          <li>Optimize scripts for better performance in VR.</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Video Demonstration</h2>
+    <p>Watch a preview of the MVP in action:</p>
+    <!-- Placeholder for video demonstration -->
+    <video controls width="600">
+      <source src="mvp-demo.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <footer>
+    <p>© 2025 Dungeon Delver VR Project</p>
+  </footer>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      document.querySelectorAll("nav a, section a").forEach(link => {
+        link.addEventListener("mouseover", function() {
+          this.style.backgroundColor = "#ff4757";
+          this.style.color = "#fff";
+          this.style.boxShadow = "3px 3px 0px black";
+          this.style.transform = "translate(-2px, -2px)";
+        });
+        link.addEventListener("mouseout", function() {
+          this.style.backgroundColor = "white";
+          this.style.color = "#000";
+          this.style.boxShadow = "5px 5px 0px black";
+          this.style.transform = "translate(0, 0)";
+        });
+      });
+    });
+  </script>
+</body>
+</html>
