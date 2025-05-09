@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dungeon Delver VR – Final Showcase</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Mega:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="neobrutalist">
+  <header>
+    <h1>Dungeon Delver VR</h1>
+    <p class="author">By Hamiz Iqbal and Aarush Vora</p>
+    <p>Final Showcase</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="https://www.notion.so/Roblox-VR-Project-Timeline-18a3485dd48680e08a51c9e5d85c5a57?pvs=4" target="_blank">Timeline</a></li>
+      <li><a href="research.html">Research</a></li>
+      <li><a href="features.html">Features</a></li>
+      <li><a href="mvp.html">MVP</a></li>
+      <li><a href="sharktank.html">Shark Tank Pitch</a></li>
+      <li><a href="finalshowcase.html">Final Showcase</a></li>
+      <li><a href="https://github.com/arusher999/Dungeon-Delver-VR" target="_blank">GitHub Repository</a></li>
+    </ul>
+  </nav>
+
+  <section>
+    <h2>🎥 Final Presentation Video</h2>
+    <p>Below is where the final presentation video will go:</p>
+    <!-- Insert your final presentation video file below -->
+    <video controls width="700">
+      <source src="final-presentation.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <footer>
+    <p>© 2025 Dungeon Delver VR Project</p>
+  </footer>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      document.querySelectorAll("nav a, section a").forEach(link => {
+        link.addEventListener("mouseover", function() {
+          this.style.backgroundColor = "#ff4757";
+          this.style.color = "#fff";
+          this.style.boxShadow = "3px 3px 0px black";
+          this.style.transform = "translate(-2px, -2px)";
+        });
+        link.addEventListener("mouseout", function() {
+          this.style.backgroundColor = "white";
+          this.style.color = "#000";
+          this.style.boxShadow = "5px 5px 0px black";
+          this.style.transform = "translate(0, 0)";
+        });
+      });
+    });
+  </script>
+</body>
+</html>
